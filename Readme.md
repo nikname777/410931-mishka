@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Валерий Носков](https://up.htmlacademy.ru/adaptive/11/user/410931).
-* Наставник: Дмитрий Мишагин.
+* Наставник: [Дмитрий Мишагин](https://htmlacademy.ru/profile/id118967).
 
 ---
 
