@@ -1,72 +1,133 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Мишка</title>
-  </head>
-  <body>
-
-    <header class="page-header">
-      <h1 class="page-header__title">Магазин товаров ручной работы для дома</h1> <!-- Заголовок скрыт! -->
-      <div class="page-header__logo">
-        <img src="http://placehold.it/86x35" alt="Mishka" width="86" height="35">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Мишка</title>
+</head>
+<body>
+  <header class="page-header">
+    <h1 class="page-header__title">Магазин товаров ручной работы для дома</h1> <!-- Заголовок скрыт! -->
+    <div class="page-header__logo">
+      <img src="http://placehold.it/86x35" alt="Mishka" width="86" height="35">
+    </div>
+    <nav class="main-nav">
+      <span></span>
+      <ul class="main-nav__menu">
+        <li><a href="#">Каталог товаров</a></li>
+        <li><a href="#">Вязание на заказ</a></li>
+        <li><a href="#">Поиск по сайту</a></li>
+        <li><a href="#">Корзина пока пуста</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="page-caption">
+    <div class="page-caption__wrapper">
+      <h2>Милые штучки ручной работы для дома</h2>
+      <div class="page-caption__links">
+        <a href="#" class="page-caption__link"><span>Предметы интерьера</span></a>
+        <a href="#" class="page-caption__link"><span>Детские игрушки</span></a>
       </div>
-      <nav class="main-nav">
-        <span></span>
-      </nav>
-    </header>
-    <section class="page-caption">
-      <div class="page-caption__wrapper">
-        <h2>Милые штучки ручной работы для дома</h2>
-        <div class="page-caption__links">
-          <a href="#" class="page-caption__link"><span>Предметы интерьера</span></a>
-          <a href="#" class="page-caption__link"><span>Детские игрушки</span></a>
-        </div>
+    </div>
+  </section>
+  <section class="page-product page-inner">
+    <h3 class="page-inner__title">Вязанные корзинки</h3> <!-- Решил сделать отдельным блоком, т.к. он еще встерчается на странице -->
+    <span class="">Товар недели</span>
+    <div class="page-product__description">
+      <p>Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+    </div>
+    <div class="page-product__table">
+      <div class="page-product__row">
+        <div class="page-product__cell">Цвет:</div>
+        <div class="page-product__cell">«Тиффани»/серый</div>
       </div>
-    </section>
-    <section class="page-product page-inner">
-      <h3 class="page-inner__title">Вязанные корзинки</h3> <!-- Решил сделать отдельным блоком, т.к. он еще встерчается на странице -->
-      <span class="">Товар недели</span>
-      <div class="page-product__description">
-        <p>Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+      <div class="page-product__row">
+        <div class="page-product__cell">Диаметр:</div>
+        <div class="page-product__cell">25 см</div>
       </div>
-      <div class="page-product__table">
-        <div class="page-product__row">
-          <div class="page-product__cell">Цвет:</div>
-          <div class="page-product__cell">«Тиффани»/серый</div>
-        </div>
-        <div class="page-product__row">
-          <div class="page-product__cell">Диаметр:</div>
-          <div class="page-product__cell">25 см</div>
-        </div>
-        <div class="page-product__row">
-          <div class="page-product__cell">Высота:</div>
-          <div class="page-product__cell">15 см</div>
-        </div>
+      <div class="page-product__row">
+        <div class="page-product__cell">Высота:</div>
+        <div class="page-product__cell">15 см</div>
       </div>
-      <div class="page-product__image">
-        <img src="http://placehold.it/260x315" alt="Вязанные корзинки" width="260" height="315">
-      </div>
-      <div class="page-inner__price">
-        <b>Цена: 990 руб.</b>
-        <a class="btn" href="">Заказать</a>
-      </div>
-    </section>
-    <section class="about-us">
-      <h3 class="page-inner__title">Коротко о нас</h3>
-      <div class="about-us__list-wrapper">
-        <ul class="about-us__list">
-          <li class="about-us__list-item">Экологически чистые материалы</li>
-          <li class="about-us__list-item">Скандинавский стиль по российской цене</li>
-          <li class="about-us__list-item">Увеличивает лайкина фотографиях</li>
-        </ul>
-        <ul class="about-us__list">
-          <li class="about-us__list-item">Связано вручную с любовью и умилением</li>
-          <li class="about-us__list-item">Поддержка отечественного производителя</li>
-          <li class="about-us__list-item">Поставляется в подарочной упаковке</li>
-        </ul>
-      </div>
-    </section>
-
-  </body>
+    </div>
+    <div class="page-product__image">
+      <img src="http://placehold.it/260x315" alt="Вязанные корзинки" width="260" height="315">
+    </div>
+    <div class="page-inner__price">
+      <b>Цена: 990 руб.</b>
+      <a class="btn" href="">Заказать</a>
+    </div>
+  </section>
+  <section class="about-us">
+    <h3 class="page-inner__title">Коротко о нас</h3>
+    <div class="about-us__list-wrapper">
+      <ul class="about-us__list">
+        <li class="about-us__list-item">Экологически чистые материалы</li>
+        <li class="about-us__list-item">Скандинавский стиль по российской цене</li>
+        <li class="about-us__list-item">Увеличивает лайкина фотографиях</li>
+      </ul>
+      <ul class="about-us__list">
+        <li class="about-us__list-item">Связано вручную с любовью и умилением</li>
+        <li class="about-us__list-item">Поддержка отечественного производителя</li>
+        <li class="about-us__list-item">Поставляется в подарочной упаковке</li>
+      </ul>
+    </div>
+  </section>
+  <section class="reviews page-inner">
+    <article>
+      <h3 class="page-inner__title">Отзывы</h3>
+      <p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+      <p class="reviews__author">Анастасия Красильникова
+        <span>@misssssiskras</span>
+      </p>
+    </article>
+    <div class="reviews__slider-controls">
+      <label for="btn-1"></label>
+      <label for="btn-2"></label>
+    </div>
+    <a class="reviews__btn btn" href="">Написать</a>
+  </section>'
+  <section class="page-contacts">
+    <h3 class="page-inner__title">Контакты</h3>
+    <div class="page-contacts__contact-block">
+      <p class="page-contacts__email">
+        <span>e-mail:</span>
+        <span>info@mimimishkashop.ru</span>
+      </p>
+      <p class="page-contacts__address">
+        <span>адрес:</span>
+        <span>г. Санкт-Петербург,
+          ул. Большая Конюшенная,
+          д. 19/8, офис 101
+        </span>
+      </p>
+    </div>
+    <div class="page-contacts__map-img">
+      <img src="http://placehold.it/320x457" alt="" width="320" height="457">
+    </div>
+    <a class="page-contacts__btn btn" href="">Напишите нам</a>
+  </section>
+  <footer class="page-footer">
+    <ul class="social-links">
+      <li class="social-links__item">
+        <a href="https://instagram.com/htmlacademy" class="social-links__item-link">
+          <img src="http://placehold.it/22x22" alt="instagram" width="22" height="22">
+        </a>
+      </li>
+      <li class="social-links__item">
+        <a href="https://facebook.com/htmlacademy" class="social-links__item-link">
+          <img src="http://placehold.it/22x22" alt="facebook" width="22" height="22">
+        </a>
+      </li>
+      <li class="social-links__item">
+        <a href="https://twitter.com/htmlacademy" class="social-links__item-link">
+          <img src="http://placehold.it/22x22" alt="twitter" width="22" height="22">
+        </a>
+      </li>
+    </ul>
+    <div class="page-footer__developers">
+      <p>Разработано</p>
+      <img src="http://placehold.it/30x30" alt="Academy" width="30" height="30">
+    </div>
+  </footer>
+</body>
 </html>
