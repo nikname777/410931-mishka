@@ -1,11 +1,25 @@
 .page-contacts {
   line-height: 30px;
-  &__row {
+  .page-contacts__table {
+    border-collapse: separate;
+  }
+  .page-contacts__row {
+    &:first-child {
+      margin-bottom: 20px;
+      td:last-child{
+        border-bottom: 1px solid $accent-color;
+      }
+    }
+    &:last-child {
+      td:last-child{
+        width: 145px;
+      }
+    }
     td {
       vertical-align: top;
-    }
       &:first-child {
         width: 80px;
       }
+    }
   }
 }

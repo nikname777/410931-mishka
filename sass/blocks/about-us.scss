@@ -1,5 +1,5 @@
 .about-us {
-  &__list {
+  .about-us__list {
     font-family: $bold-font;
     font-size: 17px;
     line-height: 20px;
@@ -7,44 +7,44 @@
     list-style: none;
     padding: 0;
   }
-  &__list-item {
+  .about-us__list-item {
     padding-top: 85px;
     position: relative;
   }
-  &__list-item::before {
+  .about-us__list-item::before {
     @include content;
     top: 30px;
     left: 0;
   }
-  &__list-item:nth-child(1)::before {
+  .about-us__list-item:nth-child(1)::before {
     background-image: url('../img/icon-feature-1.svg');
     width: 33px;
     height: 38px;
     fill: $accent-color;
   }
-  &__list-item:nth-child(2)::before {
+  .about-us__list-item:nth-child(2)::before {
     background-image: url('../img/icon-feature-3.svg');
     width: 47px;
     height: 27px;
     fill: $accent-color;
   }
-  &__list-item:nth-child(3)::before {
+  .about-us__list-item:nth-child(3)::before {
     background-image: url('../img/icon-feature-5.svg');
     width: 33px;
     height: 38px;
     fill: $accent-color;
   }
-  &__list-item:nth-child(4)::before {
+  .about-us__list-item:nth-child(4)::before {
     background-image: url('../img/icon-feature-2.svg');
     width: 33px;
     height: 38px;
   }
-  &__list-item:nth-child(5)::before {
+  .about-us__list-item:nth-child(5)::before {
     background-image: url('../img/icon-feature-4.svg');
     width: 55px;
     height: 23px;
   }
-  &__list-item:nth-child(6)::before {
+  .about-us__list-item:nth-child(6)::before {
     background-image: url('../img/icon-feature-6.svg');
     width: 33px;
     height: 38px;
