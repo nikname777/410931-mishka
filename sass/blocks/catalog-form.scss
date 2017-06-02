@@ -1,0 +1,184 @@
+.catalog-form {
+  fieldset {
+    border: none;
+    border-top: 1px solid $accent-color;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    font-family: $bold-font;
+    font-size: $font-size--a;
+    color: $font-color;
+  }
+}
+
+.catalog-form__legend {
+  color: $accent-color;
+  text-transform: uppercase;
+  font-family: $bold-font;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 1px;
+    background-color: $accent-color;
+    top: 10px;
+    left: 60px;
+
+  }
+}
+
+.catalog-form__radio-item,
+.catalog-form__checkbox {
+  display: none;
+
+  + label {
+    padding-left: 60px;
+  }
+}
+
+.catalog-form__radio-item {
+  + label {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      top: -2px;
+      left: 0;
+      border: 1px solid #000000;
+      border-radius: 50%;
+    }
+  }
+}
+.catalog-form__radio-item:checked {
+  + label {
+    &::before{
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top: 6.5px;
+      left: 8.5px;
+      background-color: $accent-color;
+      border-radius: 50%;
+      border: none;
+    }
+
+    &::after{
+      content: "";
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      top: -2px;
+      left: 0;
+      border: 1px solid #000000;
+      border-radius: 50%;
+    }
+  }
+}
+
+.catalog-form__checkbox {
+  + label {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      top: -2px;
+      left: 0;
+      border: 1px solid #000000;
+    }
+  }
+}
+
+.catalog-form__checkbox:checked {
+  + label {
+    &::after{
+      content: "";
+      position: absolute;
+      width: 22px;
+      height: 23px;
+      top: 0;
+      left: 4px;
+      background-image: url('../img/icon-tick.svg');
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.catalog-form__name {
+  input {
+    width: 260px;
+    border: none;
+    border-bottom: 2px solid #000000;
+    font-family: $default-font;
+    font-size: $font-size--a;
+    color: $font-color;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    &::placeholder {
+      color: #D2D2D2;
+    }
+  }
+}
+
+.catalog-form__user-data{
+  width: 260px;
+  border: none;
+  border-bottom: 2px solid #000000;
+  font-family: $default-font;
+  font-size: $font-size--a;
+  color: $font-color;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  &::placeholder {
+    color: #D2D2D2;
+  }
+}
+
+.calalog-form__text {
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  width: 260px;
+  height: 142px;
+  margin-top: 20px;
+  padding: 17px;
+  padding-top: 17px;
+
+  + p {
+    margin-bottom: 20px;
+  }
+
+  &::placeholder {
+    font-family: $default-font;
+    font-size: $font-size--a;
+    color: $font-color;
+    color: #D2D2D2;
+  }
+}
+
+.calalog-form__btn {
+  background-color: #ffffff;
+  width: 260px;
+  font-family: $bold-font;
+  font-size: $font-size--a;
+  color: $font-color;
+  &:hover {
+    cursor: pointer;
+  }
+}

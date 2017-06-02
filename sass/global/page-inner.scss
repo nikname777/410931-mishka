@@ -6,31 +6,36 @@
   width: 320px;
   margin: 0 auto;
   padding: 30px;
-  .page-inner__title {
-    font-family: $bold-font;
-    font-size: $font-size--h3;
+}
+.page-inner__title {
+  font-family: $bold-font;
+  font-size: $font-size--h3;
+  color: $font-color;
+  margin: 0;
+  margin-bottom: 10px;
+  a {
     color: $font-color;
-    margin: 0;
-    margin-bottom: 10px;
-    a {
-      color: $font-color;
-      text-decoration: none;
-      cursor: pointer;
-    }
+    text-decoration: none;
+    cursor: pointer;
   }
-  .page-inner__price {
-    font-weight: bold;
-    b {
-      display: block;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      text-align: center;
-    }
+}
+.page-inner__price {
+  font-weight: bold;
+  b {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
   }
-  .page-inner__title {
-    &--contact {
-      font-size: 17px;
-      margin-bottom: 35px;
-    }
+}
+.page-inner__title {
+  &--contact {
+    font-size: 17px;
+    margin-bottom: 35px;
   }
+}
+
+.page-inner__form-headline {
+  margin-top: 0;
+  margin-bottom: 27px;
 }
