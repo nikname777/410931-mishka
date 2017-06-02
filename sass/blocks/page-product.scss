@@ -1,0 +1,23 @@
+.page-product {
+  line-height: 24px;
+  &__good-week {
+    font-family: $default-font;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: $accent-color;
+  }
+  &__table {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+  }
+  &__row {
+    border-bottom: 1px solid #ECECEC;
+  }
+  &__cell {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}

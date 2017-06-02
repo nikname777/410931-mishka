@@ -1,0 +1,13 @@
+.page-header {
+  background-color: $main-bg;
+  color: $font-color;
+  margin: 0 auto;
+  max-width: 320px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  outline: 1px dashed #000;
+
+  &__title {
+    display: none;
+  }
+}

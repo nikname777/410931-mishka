@@ -1,0 +1,11 @@
+.page-contacts {
+  line-height: 30px;
+  &__row {
+    td {
+      vertical-align: top;
+    }
+      &:first-child {
+        width: 80px;
+      }
+  }
+}

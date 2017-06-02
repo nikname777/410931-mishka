@@ -1,0 +1,6 @@
+@mixin content() {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  fill: #ffb600;
+}
