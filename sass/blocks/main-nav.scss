@@ -1,5 +1,26 @@
 .main-nav {
-  .main-nav__menu{
-    display: none;
+  height: 317px;
+  display: none;
+}
+
+.main-nav__menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 320px
+}
+
+.main-nav__item {
+  border-bottom: 1px solid $border-color;
+  a {
+    display: block;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    text-align: center;
+    text-decoration: none;
+    color: $font-color;
+    font-family: $bold-font;
+    font-size: $font-size--a;
+    line-height: 24px;
   }
 }

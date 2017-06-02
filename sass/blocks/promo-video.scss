@@ -1,0 +1,45 @@
+.promo-video__title {
+  padding: 30px;
+  padding-left: 90px;
+  position: relative;
+  border: 1px solid $border-color;
+  h3 {
+    margin: 0;
+    padding: 0;
+  }
+  &::before {
+    @include content;
+    width: 32px;
+    height: 29px;
+    top: 35px;
+    left: 33px;
+    background-image: url('../img/icon-video.svg');
+  }
+}
+.promo-video {
+  display: block;
+  position: relative;
+
+  .promo-video__icon-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -51px;
+    margin-top: -39px;
+  }
+
+  &::before {
+
+  }
+}
+
+.promo-video__description {
+  padding: 30px;
+  border: 1px solid $border-color;
+  border-top: none;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 27px;
+  }
+}

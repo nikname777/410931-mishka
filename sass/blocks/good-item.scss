@@ -1,0 +1,57 @@
+.good-item {
+  margin-bottom: 30px;
+}
+
+.good-item__img {
+  a {
+    cursor: pointer;
+    display: block;
+  }
+
+  img {
+    display: block;
+  }
+}
+
+.good-item__text-block {
+  border: 1px solid $border-color;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.good-item__description {
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 10px;
+}
+
+.good-item__title {
+  h3 {
+    margin: 0;
+    padding: 0;
+    @include goodstitle;
+  }
+}
+
+.good-item__parameters {
+  font-family: $default-font;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.good-item__price {
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    font-family: $bold-font;
+    font-size: $font-size--p;
+    line-height: 24px;
+    color: $font-color;
+  }
+
+  a {
+    opacity: 0.2;
+    margin-top: 2px;
+  }
+}
