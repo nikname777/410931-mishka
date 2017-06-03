@@ -1,0 +1,17 @@
+@mixin content() {
+  position: absolute;
+
+  background-repeat: no-repeat;
+
+  content: '';
+
+  fill: #ffb600;
+}
+
+@mixin goodstitle() {
+  font-family: $bold-font;
+  font-size: $font-size--a;
+  line-height: 24px;
+
+  color: $font-color;
+}

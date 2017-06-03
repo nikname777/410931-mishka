@@ -1,0 +1,32 @@
+.page-contacts {
+  line-height: 30px;
+}
+
+.page-contacts__row {
+  display: flex;
+
+  justify-contens: space-between;
+
+  &:first-child {
+    margin-bottom: 20px;
+    span:last-child {
+      border-bottom: 1px solid $accent-color;
+    }
+  }
+  &:last-child {
+    span:last-child {
+      width: 145px;
+    }
+  }
+  span {
+    vertical-align: top;
+    &:first-child {
+      width: 80px;
+    }
+  }
+}
+
+.page-contacts__map-img {
+  width: 320px;
+  margin: 0 auto;
+}

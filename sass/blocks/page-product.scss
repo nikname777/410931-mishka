@@ -1,0 +1,30 @@
+.page-product {
+  line-height: 24px;
+}
+
+.page-product__good-week {
+  font-family: $default-font;
+  font-size: 17px;
+  font-weight: bold;
+
+  color: $accent-color;
+
+  text-transform: uppercase;
+}
+
+.page-product__table {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 30px;
+
+  border-collapse: collapse;
+}
+
+.page-product__row {
+  border-bottom: 1px solid #ececec;
+}
+
+.page-product__cell {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

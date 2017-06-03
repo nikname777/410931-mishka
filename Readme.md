@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Валерий Носков](https://up.htmlacademy.ru/adaptive/11/user/410931).
-* Наставник: [Максим Сёмушкин](https://htmlacademy.ru/profile/id48647).
+* Наставник: [Виктория Коваленко](https://htmlacademy.ru/profile/id42638).
 
 ---
 
