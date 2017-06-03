@@ -1,14 +1,14 @@
 .site-logo {
   text-align: center;
-
   a {
+    margin: 0 auto;
+
     display: inline-block;
+
     cursor: pointer;
     text-align: center;
-    margin: 0 auto;
   }
-
   img {
-      text-align: center;
+    text-align: center;
   }
 }

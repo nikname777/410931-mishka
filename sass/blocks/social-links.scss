@@ -1,12 +1,16 @@
 .social-links {
-  list-style: none;
-  padding: 0;
+  width: 260px;
   margin: 0;
+  padding: 0;
+
   display: flex;
+
+  list-style: none;
+
+  border-bottom: 1px solid #e5e5e5;
+
   justify-content: center;
   align-items: center;
-  width: 260px;
-  border-bottom: 1px solid #E5E5E5;
 }
 .social-links__item {
   margin-right: 50px;

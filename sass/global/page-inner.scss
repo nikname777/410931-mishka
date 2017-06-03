@@ -1,37 +1,45 @@
 .page-inner {
-  font-family: $default-font;
-  font-size: $font-size--p;
-  color: $font-color--p;
   box-sizing: border-box;
   width: 320px;
   margin: 0 auto;
   padding: 30px;
+
+  font-family: $default-font;
+  font-size: $font-size--p;
+
+  color: $font-color--p;
 }
 .page-inner__title {
-  font-family: $bold-font;
-  font-size: $font-size--h3;
-  color: $font-color;
   margin: 0;
   margin-bottom: 10px;
+
+  font-family: $bold-font;
+  font-size: $font-size--h3;
+
+  color: $font-color;
   a {
     color: $font-color;
-    text-decoration: none;
+
     cursor: pointer;
+    text-decoration: none;
   }
 }
 .page-inner__price {
   font-weight: bold;
   b {
-    display: block;
     padding-top: 15px;
     padding-bottom: 15px;
+
+    display: block;
+
     text-align: center;
   }
 }
 .page-inner__title {
   &--contact {
-    font-size: 17px;
     margin-bottom: 35px;
+
+    font-size: 17px;
   }
 }
 

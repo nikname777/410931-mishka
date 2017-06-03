@@ -4,30 +4,33 @@
 
 .good-item__img {
   a {
-    cursor: pointer;
     display: block;
-  }
 
+    cursor: pointer;
+  }
   img {
     display: block;
   }
 }
 
 .good-item__text-block {
-  border: 1px solid $border-color;
-  padding: 30px;
   box-sizing: border-box;
+  padding: 30px;
+
+  border: 1px solid $border-color;
 }
 
 .good-item__description {
-  border-bottom: 1px solid $border-color;
   padding-bottom: 10px;
+
+  border-bottom: 1px solid $border-color;
 }
 
 .good-item__title {
   h3 {
     margin: 0;
     padding: 0;
+
     @include goodstitle;
   }
 }
@@ -40,18 +43,20 @@
 
 .good-item__price {
   padding-top: 22px;
-  display: flex;
-  justify-content: space-between;
 
+  display: flex;
+
+  justify-content: space-between;
   span {
     font-family: $bold-font;
     font-size: $font-size--p;
     line-height: 24px;
+
     color: $font-color;
   }
-
   a {
-    opacity: 0.2;
     margin-top: 2px;
+
+    opacity: 0.2;
   }
 }
