@@ -62,3 +62,25 @@
 
   background-image: url('../img/icon-feature-6.svg');
 }
+
+@media (min-width: 768px) {
+  .about-us__list-wrapper {
+    ul {
+      column-count: 2;
+    }
+  }
+
+  .about-us__list-item {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1250px) {
+  .about-us {
+    width: 1250px;
+    margin: 0 auto;
+  }
+  .about-us__list-item {
+    width: 70%;
+  }
+}

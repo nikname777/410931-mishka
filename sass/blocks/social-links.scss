@@ -19,3 +19,14 @@
     margin-right: 0;
   }
 }
+
+@media (min-width: 768px) {
+  .social-links {
+    margin-right: 40px;
+
+    border-bottom: none;
+  }
+  .social-links__item {
+    margin-bottom: 0;
+  }
+}
