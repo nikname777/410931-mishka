@@ -9,6 +9,13 @@
 
   color: $font-color--p;
 }
+
+.page-inner--header {
+  width: 720px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .page-inner__title {
   margin: 0;
   margin-bottom: 10px;
@@ -23,6 +30,11 @@
     cursor: pointer;
     text-decoration: none;
   }
+  &--contact {
+    margin-bottom: 35px;
+
+    font-size: 17px;
+  }
 }
 .page-inner__price {
   font-weight: bold;
@@ -35,15 +47,65 @@
     text-align: center;
   }
 }
-.page-inner__title {
-  &--contact {
-    margin-bottom: 35px;
-
-    font-size: 17px;
-  }
-}
 
 .page-inner__form-headline {
   margin-top: 0;
   margin-bottom: 27px;
+}
+
+.page-inner--footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .page-inner {
+    width: 768px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .page-inner--product {
+    width: 292px;
+  }
+
+  .page-inner--reviews {
+    position: relative;
+
+    padding-bottom: 15px;
+
+    background-image: url('../img/about-us-background.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  .page-inner--contacts {
+    padding-top: 70px;
+  }
+
+  .page-inner--footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .page-inner {
+    width: 1250px;
+    padding-right: 100px;
+    padding-left: 100px;
+    &--about-us {
+      padding-left: 275px;
+    }
+    &--contacts {
+      width: 577px;
+      padding-left: 250px;
+    }
+    &--reviews {
+      padding-left: 175px;
+    }
+    &--footer {
+      padding-top: 45px;
+    }
+  }
 }

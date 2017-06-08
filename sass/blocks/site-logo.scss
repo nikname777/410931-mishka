@@ -1,14 +1,26 @@
 .site-logo {
-  text-align: center;
-  a {
-    margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 
-    display: inline-block;
+  width: 86px;
+  height: 35px;
+  margin-top: -17px;
+  margin-left: -43px;
+}
 
-    cursor: pointer;
-    text-align: center;
+@media (min-width: 768px) {
+  .site-logo {
+    left: 50px;
+
+    margin-left: 0;
   }
-  img {
-    text-align: center;
+}
+
+@media (min-width: 1250px) {
+  .site-logo {
+    left: 50%;
+
+    margin-left: -43px;
   }
 }

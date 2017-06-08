@@ -1,10 +1,12 @@
 .page-header {
   position: relative;
 
+  box-sizing: border-box;
   max-width: 320px;
+  min-height: 90px;
   margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
 
   color: $font-color;
   background-color: $main-bg;
@@ -16,14 +18,33 @@
 
 .page-header__humburger {
   position: absolute;
-  top: 32px;
+  top: 50%;
   right: 30px;
 
   width: 20px;
   height: 14px;
+  margin-top: -7px;
 
   display: block;
 
   background-image: url('../img/icon-menu-open.svg');
   background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .page-header {
+    max-width: 768px;
+  }
+
+  .page-header__humburger {
+    display: none;
+  }
+}
+
+@media (min-width: 1250px) {
+  .page-header {
+    max-width: 1250px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
 }
