@@ -82,7 +82,7 @@
 
   .page-contacts__btn {
     width: 230px;
-    margin: 0 auto;
+    margin: 50px auto;
   }
 }
 
@@ -92,6 +92,11 @@
 
     width: 1250px;
     margin: 0 auto;
+    margin-bottom: 105px;
+  }
+
+  .page-inner--contacts {
+    width: auto;
   }
 
   .page-contacts__contact-block {
@@ -126,7 +131,7 @@
 
   .page-contacts__btn {
     position: absolute;
-    top: 415px;
+    top: 365px;
     left: 275px;
   }
 }

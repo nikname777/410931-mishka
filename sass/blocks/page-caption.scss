@@ -1,4 +1,5 @@
 .page-caption {
+  width: 100%;
   border-top: 1px solid $border-color;
   background-color: #f9f9f9;
   .page-caption__inner--catalog {
@@ -14,16 +15,12 @@
 .page-caption__inner {
   position: relative;
 
-  width: 340px;
-  min-height: 490px;
   margin: 0 auto;
-}
-
-.page-caption__inner--background {
   background-image: url('../img/hero-mobile@1x.jpg');
   background-repeat: no-repeat;
   background-position: 50% 0;
   width: 320px;
+  padding-top: 286px;
 }
 
 .page-caption__title {
@@ -57,18 +54,18 @@
 }
 
 .page-caption__links {
-  position: absolute;
-  top: 287px;
-  left: 50%;
+  // position: absolute;
+  // top: 287px;
+  // left: 50%;
 
   width: 320px;
-  margin-left: -160px;
+  // margin-left: -160px;
 }
 
 .page-caption__link {
   padding: 25px;
-  padding-top: 29px;
-  padding-bottom: 29px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
   display: block;
 
@@ -127,6 +124,8 @@
     position: relative;
 
     width: 768px;
+    padding-top: 642px;
+    background-image: url('../img/hero-mobile@2x.jpg');
     &::after {
       position: absolute;
       bottom: -1px;
@@ -140,17 +139,6 @@
 
       content: '';
     }
-  }
-
-  .page-caption__inner--background {
-    width: 768px;
-    height: 746px;
-
-    background-image: url('../img/hero-mobile@2x.jpg');
-  }
-
-  .page-caption__inner {
-    min-height: 741px;
   }
 
   .page-caption__title {
@@ -168,7 +156,7 @@
     bottom: 0;
 
     width: 668px;
-    margin-left: -334px;
+    margin: 0 auto;
 
     display: flex;
 
@@ -183,16 +171,14 @@
 
 @media (min-width: 1250px) {
   .page-caption__inner {
+    padding-top: 642px;
     width: 1250px;
+    background-origin: padding-box;
+
+    background-image: url('../img/hero-mobile@3x.jpg');
     &::after {
       width: 1250px;
     }
-  }
-  .page-caption__inner--background {
-    width: 1250px;
-    height: 746px;
-
-    background-image: url('../img/hero-mobile@3x.jpg');
   }
 
   .page-caption__title {
@@ -204,8 +190,9 @@
   }
 
   .page-caption__links {
-    width: 1050px;
-    margin-left: -525px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
   }
 
   .page-caption__link {

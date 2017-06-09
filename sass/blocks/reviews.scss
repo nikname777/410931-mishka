@@ -5,6 +5,12 @@
   }
 }
 
+.page-inner--reviews {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 .page-inner__acticle {
   margin-bottom: 30px;
   padding-top: 27px;
@@ -70,6 +76,11 @@
     line-height: 30px;
   }
 
+  .page-inner--reviews {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
   .page-inner__title--reviews {
     margin-bottom: 56px;
   }
@@ -79,19 +90,18 @@
     margin-bottom: 55px;
   }
 
-  .reviews__btn {
-    position: absolute;
-    top: 78px;
-    right: 50px;
+  .reviews__slider-elements {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
 
+  .reviews__btn {
     width: 175px;
   }
 
   .reviews__slider-controls {
-    position: absolute;
-    top: 340px;
-    right: 0;
-
     width: 250px;
   }
 

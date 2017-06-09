@@ -20,12 +20,13 @@
 
     font-family: $bold-font;
     font-size: 19px;
-    line-height: 0;
+    line-height: 18px;
+    margin-top: 8px;
 
     color: $font-color;
   }
   a {
-    line-height: 0;
+    margin-top: -6px;
   }
   svg {
     fill: $accent-color;
