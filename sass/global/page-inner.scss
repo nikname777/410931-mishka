@@ -63,29 +63,36 @@
     width: 768px;
     margin: 0 auto;
     padding: 50px;
+    &--title {
+      font-size: 43px;
+    }
+    &--product {
+      width: 292px;
+    }
+    &--reviews {
+      width: auto;
+      position: relative;
+
+      padding-bottom: 15px;
+
+      background-image: url('../img/about-us-background.jpg');
+      background-repeat: no-repeat;
+      background-position: 0 0;
+    }
+    &--contacts {
+      padding-top: 70px;
+    }
+    &--catalog {
+      margin: 0 auto;
+      width: 668px;
+    }
+    &--footer {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
   }
-
-  .page-inner--product {
-    width: 292px;
-  }
-
-  .page-inner--reviews {
-    position: relative;
-
-    padding-bottom: 15px;
-
-    background-image: url('../img/about-us-background.jpg');
-    background-repeat: no-repeat;
-    background-position: 0 0;
-  }
-
-  .page-inner--contacts {
-    padding-top: 70px;
-  }
-
-  .page-inner--footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  .page-inner__title--reviews {
+    margin-bottom: 56px;
   }
 }
 
@@ -103,9 +110,15 @@
     }
     &--reviews {
       padding-left: 175px;
+      background-position: 100px 0;
     }
     &--footer {
       padding-top: 45px;
     }
+  }
+  .page-inner__footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 1050px;
   }
 }

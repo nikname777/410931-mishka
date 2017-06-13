@@ -1,6 +1,8 @@
 @import "global/global.scss";
 @import "variables.scss";
 
+
+@import "global/btn.scss";
 @import "global/mixins.scss";
 @import "global/fonts.scss";
 @import "blocks/page-header.scss";
@@ -17,5 +19,4 @@
 @import "blocks/catalog-form.scss";
 @import "blocks/promo-video.scss";
 @import "blocks/social-links.scss";
-@import "global/btn.scss";
 @import "blocks/catalog-modal.scss";
