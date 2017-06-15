@@ -6,12 +6,19 @@
 }
 
 .page-reviews__acticle {
-  margin-bottom: 30px;
-  padding-top: 27px;
+  margin-bottom: 29px;
+  padding-top: 0;
+}
+
+.reviews__text {
+  font-family: $default-font;
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 27px;
 }
 
 .reviews__author {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 
   font-family: $bold-font;
   font-size: 17px;
@@ -27,7 +34,7 @@
 }
 
 .reviews__slider-controls {
-  margin-bottom: 35px;
+  margin-bottom: 37px;
 
   display: flex;
 
@@ -37,7 +44,7 @@
 .reviews__slider-arrow {
   position: relative;
 
-  padding: 23px;
+  padding: 25px;
 
   border: 1px solid #ececec;
 
@@ -46,8 +53,8 @@
     border-right: none;
   }
   &::after {
-    top: 9px;
-    left: 40px;
+    top: 12px;
+    left: 38px;
 
     width: 51px;
     height: 26px;

@@ -3,9 +3,11 @@
   padding-bottom: 5px;
 
   display: block;
-
+  font-family: $bold-font;
+  font-size: $font-size--a;
   color: $font-color--p;
   border: 2px solid $font-color--p;
+  height: 50px;
 
   text-align: center;
   text-decoration: none;

@@ -86,7 +86,7 @@
   display: none;
 }
 
-.after-nav-menu {
+.main-nav__after {
   display: none;
 }
 
@@ -110,9 +110,9 @@
     border-bottom: none;
     border-left: 1px solid $border-color;
     a {
-      padding-top: 33px;
+      padding-top: 32px;
       padding-right: 20px;
-      padding-bottom: 34px;
+      padding-bottom: 32px;
       padding-left: 20px;
     }
   }
@@ -121,11 +121,11 @@
   .main-nav__item:nth-child(2) {
     position: absolute;
     z-index: 1;
-    top: 100px;
+    top: 97px;
 
     border-left: none;
     a {
-      padding-top: 15px;
+      padding-top: 10px;
       padding-bottom: 15px;
       padding-left: 0;
 
@@ -138,13 +138,16 @@
   }
 
   .main-nav__item:nth-child(2) {
-    left: 167px;
+    left: 168px;
   }
 
   .main-nav__item--cart {
     a {
       padding-right: 0;
-      padding-left: 80px;
+      padding-left: 82px;
+    }
+    &::before {
+      top: 43px;
     }
   }
 
@@ -154,14 +157,14 @@
       display: none;
     }
     &::before {
-      left: 33px;
+      left: 31px;
     }
   }
 
   .main-nav__delivery {
     position: absolute;
     z-index: 1;
-    top: 116px;
+    top: 107px;
     right: 50px;
 
     display: block;
@@ -173,13 +176,9 @@
     color: $font-color;
   }
 
-  .after-nav-menu {
+  .main-nav__after {
     display: none;
   }
-}
-
-@media (min-width: 1150px) {
-
 }
 
 @media (min-width: 1250px) {
@@ -197,11 +196,11 @@
   .main-nav__item:nth-child(2) {
     position: absolute;
     z-index: 1;
-    top: 0;
+    top: 4px;
 
     border-left: none;
     a {
-      padding-top: 33px;
+      padding-top: 27px;
       padding-bottom: 34px;
 
       font-size: $font-size--a;
@@ -209,7 +208,8 @@
   }
 
   .main-nav__item:first-child {
-    left: 0;
+    left: 4px;
+    top: 1px;
     a {
       padding-right: 35px;
       padding-left: 0;
@@ -226,11 +226,11 @@
     }
   }
 
-  .after-nav-menu {
+  .main-nav__after{
     position: absolute;
     z-index: 2;
-    top: 102px;
-    left: 100px;
+    top: 93px;
+    left: 104px;
 
     padding: 0;
 
@@ -241,8 +241,8 @@
     justify-content: space-between;
   }
 
-  .after-nav-menu__item {
-    margin-right: 65px;
+  .main-nav__after-item {
+    margin-right: 62px;
     a {
       font-family: $bold-font;
       font-size: $font-size--p;
@@ -251,6 +251,6 @@
     }
   }
   .main-nav__delivery {
-    right: 100px;
+    right: 98px;
   }
 }

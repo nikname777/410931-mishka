@@ -126,10 +126,9 @@
   }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: 1250px) {
   .catalog-center {
     width: 1150px;
-    outline: 1px dashed #ccc;
     box-sizing: border-box;
   }
   .catalog-center__goods {
@@ -137,7 +136,6 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    outline: 1px dashed #ccc;
 
   }
 
