@@ -1,5 +1,6 @@
 .page-product {
   line-height: 24px;
+  margin-bottom: 8px;
 }
 
 .page-product__header {
@@ -9,13 +10,17 @@
 
 
 .page-product__good-week {
-  font-family: $default-font;
+  font-family: $bold-font;
   font-size: 17px;
-  font-weight: bold;
 
   color: $accent-color;
 
   text-transform: uppercase;
+  margin-bottom: 7px;
+}
+
+.page-product__description {
+  margin-bottom: 16px;
 }
 
 .page-product__image {
@@ -27,7 +32,7 @@
 .page-product__table {
   box-sizing: border-box;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 
   border-collapse: collapse;
 }
@@ -37,8 +42,27 @@
 }
 
 .page-product__cell {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  height: 40px;
+}
+
+.page-product__cell {
+  &:first-child {
+    width: 98px;
+  }
+}
+
+.page-product__image {
+  margin-bottom: 2px;
+}
+
+.page-product__btn,
+.reviews__btn,
+.page-contacts__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -47,7 +71,9 @@
     line-height: 30px;
   }
   .page-product__header {
-    margin-bottom: 42px;
+    margin-top: 6px;
+    margin-left: -2px;
+    margin-bottom: 56px;
 
     flex-direction: row;
 
@@ -55,15 +81,13 @@
     aling-items: flex-start;
   }
 
-  .page-inner__title {
-    font-size: 43px;
-  }
-
   .page-product__good-week {
     width: 100px;
 
     font-size: 17px;
     line-height: 17px;
+    margin-top: 2px;
+    margin-right: 13px;
 
     text-align: center;
     text-transform: uppercase;
@@ -78,22 +102,30 @@
   }
 
   .page-product__description {
-    margin-bottom: 39px;
+    margin-bottom: 37px;
+    p {
+      font-size: 17px;
+      font-family: $default-font;
+      line-height: 30px;
+      margin-top: -9px;
+    }
   }
 
   .page-product__table {
-    margin-bottom: 33px;
+    margin-bottom: 40px;
   }
 
   .page-inner__price {
     b {
+      font-size: 20px;
+      line-height: 24px;
       margin-bottom: 20px;
     }
   }
 
   .page-product__image {
     position: absolute;
-    top: 0;
+    top: 9px;
     right: 0;
 
     width: 334px;

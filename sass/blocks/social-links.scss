@@ -1,5 +1,4 @@
 .social-links {
-  width: 260px;
   margin: 0;
   padding: 0;
 
@@ -7,14 +6,15 @@
 
   list-style: none;
 
-  border-bottom: 1px solid #e5e5e5;
-
   justify-content: center;
   align-items: center;
 }
 .social-links__item {
-  margin-right: 50px;
+  margin-right: 42px;
   margin-bottom: 20px;
+  &:nth-child(2) {
+    margin-right: 39px;
+  }
   &:last-child {
     margin-right: 0;
   }
@@ -23,6 +23,7 @@
 @media (min-width: 768px) {
   .social-links {
     margin-right: 40px;
+    margin-top: 4px;
 
     border-bottom: none;
   }
