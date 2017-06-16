@@ -18,7 +18,7 @@
     margin-bottom: 6px;
   }
   &--about-us {
-    margin-top: 30px;
+    margin-top: 0;
   }
   &--title-about-us {
 
@@ -62,6 +62,26 @@
     font-size: 18px;
   }
 }
+
+.page-inner__title-about-us {
+  margin-bottom: 0;
+}
+
+.page-inner__title-contact {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 26px;
+}
+
+.page-inner-contacts {
+  padding-top: 39px;
+  margin-bottom: 7px;
+}
+
+.page-inner__title-reviews {
+  padding-bottom: 0
+}
+
 .page-inner__price {
   b {
     font-family: $bold-font;
