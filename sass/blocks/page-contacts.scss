@@ -46,8 +46,11 @@
   .page-contacts {
     font-size: $font-size--a;
     line-height: 30px;
+    margin-bottom: 56px;
   }
   .page-contacts__contact-block {
+    font-size: $font-size--a;
+    line-height: 30px;
     position: relative;
 
     display: flex;
@@ -56,8 +59,8 @@
     align-items: flex-start;
     &::before {
       position: absolute;
-      top: -85px;
-      right: 0;
+      top: -114px;
+      right: 2px;
 
       width: 47px;
       height: 81px;
@@ -74,7 +77,7 @@
     &:last-child {
       span {
         &:last-child {
-          width: 200px;
+          width: 230px;
         }
       }
     }
@@ -83,6 +86,7 @@
   .page-contacts__map-img {
     width: 768px;
     height: 457px;
+    margin-bottom: 55px;
 
     background-image: url('../img/map-mobile@2x.jpg');
     background-repeat: no-repeat;
@@ -91,6 +95,9 @@
   .page-contacts__btn {
     width: 230px;
     margin: 50px auto;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
   }
 }
 
@@ -100,7 +107,13 @@
 
     width: 1250px;
     margin: 0 auto;
-    margin-bottom: 105px;
+    margin-bottom: 103px;
+    margin-top: 93px;
+  }
+
+  .page-contacts__wrapper {
+    padding-left: 275px;
+    outline: 1px dashed #ccc;
   }
 
   .page-inner--contacts {
@@ -111,35 +124,34 @@
     position: relative;
 
     width: 320px;
-
+    margin-right: 0;
     flex-direction: column;
+    margin-top: 54px;
+    &::before {
+      top: -119px;
+      left: -109px;
+    }
   }
 
   .page-contacts__map-img {
-    width: 625px;
+    width: 525px;
     height: 457px;
     margin: 0;
+    margin-left: 32px;
 
-    background-image: url('../img/map-mobile@2x.jpg');
+    background-image: url('../img/map-mobile@3x.jpg');
     background-repeat: no-repeat;
     background-position: 0 0;
+    outline: 1px dashed #ccc;
   }
 
   .page-contacts__wrapper {
     display: flex;
   }
 
-  .page-contacts__contact-block {
-    margin-top: 59px;
-    &::before {
-      top: -108px;
-      left: -103px;
-    }
-  }
-
   .page-contacts__btn {
     position: absolute;
-    top: 365px;
+    top: 350px;
     left: 275px;
   }
 }

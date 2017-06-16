@@ -1,6 +1,6 @@
 .promo-video {
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 58px;
   width: 320px;
 
   padding-left: 30px;
@@ -49,8 +49,8 @@
     padding: 0;
   }
   &::before {
-    top: 30px;
-    left: 30px;
+    top: 28px;
+    left: 33px;
 
     width: 32px;
     height: 29px;
@@ -81,12 +81,16 @@
   font-size: 13px;
   line-height: 24px;
   padding: 30px;
+  padding-right: 39px;
+  padding-left: 33px;
+  padding-top: 27px;
+  padding-bottom: 32px;
 
   border: 1px solid $border-color;
   border-top: none;
   p {
     margin-top: 0;
-    margin-bottom: 27px;
+    margin-bottom: 25px;
   }
 }
 
@@ -104,11 +108,13 @@
 
     padding-left: 50px;
     padding-right: 50px;
+    margin-bottom: 63px;
 
   }
   .promo-video__inner {
     position: static;
     width: 668px;
+    padding-top: 0;
   }
   .promo-video__player {
     order: 0;
@@ -121,16 +127,27 @@
   .promo-video__title {
     position: relative;
     font-family: $bold-font;
-    font-size: 20px;
-    padding-left: 100px;
+    font-size: 17px;
+    padding-top: 36px;
+    padding-left: 105px;
+    letter-spacing: 0.01em;
+    border-bottom: none;
     &::before {
-      top: 18px;
+      top: 32px;
+      left: 40px;
     }
   }
   .promo-video__description {
     font-size: 15px;
     line-height: 30px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 45px;
+    p {
+      margin-bottom: 36px;
+    }
   }
+
   .promo-video__btn {
     width: 583px;
     padding-top: 10px;
@@ -141,7 +158,7 @@
   .promo-video {
     width: 1150px;
     box-sizing: border-box;
-
+    margin-bottom: 106px;
   }
   .promo-video__inner {
     width: 1050px;
@@ -152,35 +169,48 @@
   }
 
   .promo-video__player {
-    width: 668px;
+    width: 682px;
 
   }
   .promo-video__content {
     border: 1px solid $border-color;
-    width: 382px;
+    width: 368px;
     box-sizing: border-box;
   }
+
+  .promo-video__img {
+    width: 682px;
+    min-height: 455px;
+    background-image: url('../img/video-mobile@3x.jpg');
+  }
+
   .promo-video__title {
-    padding-top: 90px;
+    padding-top: 95px;
     padding-left: 77px;
     padding-bottom: 10px;
     border: none;
+    h3 {
+      width: 200px;
+    }
     &::before {
-      top: 29px;
+      top: 42px;
       left: 77px;
     }
 
   }
   .promo-video__description {
     border: none;
-    margin-left: 47px;
+    margin-left: 36px;
+    padding-right: 0;
+    padding-top: 23px;
     p {
-      margin-bottom: 45px;
+      margin-bottom: 46px;
     }
   }
    .promo-video__btn {
     width: 230px;
     margin: 0;
+    margin-left: 3px;
   }
 
 }

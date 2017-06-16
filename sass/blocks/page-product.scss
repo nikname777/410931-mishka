@@ -102,7 +102,7 @@
   }
 
   .page-product__description {
-    margin-bottom: 37px;
+    margin-bottom: 36px;
     p {
       font-size: 17px;
       font-family: $default-font;
@@ -119,7 +119,7 @@
     b {
       font-size: 20px;
       line-height: 24px;
-      margin-bottom: 20px;
+      margin-bottom: 19px;
     }
   }
 
@@ -138,6 +138,18 @@
 
     width: 1250px;
     margin: 0 auto;
+    padding-top: 13px;
+  }
+
+  .page-product__header {
+    margin-top: -17px;
+    margin-left: -3px;
+    min-height: 60px;
+  }
+
+  .page-product__good-week {
+    margin-left: 15px;
+    margin-top: 5px;
   }
 
   .page-product__image {
@@ -168,9 +180,16 @@
 
   .page-product__description {
     margin-bottom: 47px;
+    margin-top: -15px;
   }
 
   .page-product__table {
-    margin-bottom: 89px;
+    margin-bottom: 93px;
+  }
+
+  .page-inner__price {
+    b {
+      margin-bottom: 20px;
+    }
   }
 }

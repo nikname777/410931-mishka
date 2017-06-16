@@ -196,7 +196,7 @@
   .main-nav__item:nth-child(2) {
     position: absolute;
     z-index: 1;
-    top: 4px;
+    top: 3px;
 
     border-left: none;
     a {
@@ -208,8 +208,8 @@
   }
 
   .main-nav__item:first-child {
-    left: 4px;
-    top: 1px;
+    left: 1px;
+    top: 3px;
     a {
       padding-right: 35px;
       padding-left: 0;
@@ -219,18 +219,24 @@
   }
 
   .main-nav__item:nth-child(2) {
-    left: 167px;
+    left: 165px;
     a {
       padding-right: 35px;
       padding-left: 55px;
     }
   }
 
+  .main-nav__item--cart {
+    a {
+      padding-top: 30px;
+    }
+  }
+
   .main-nav__after{
     position: absolute;
     z-index: 2;
-    top: 93px;
-    left: 104px;
+    top: 90px;
+    left: 102px;
 
     padding: 0;
 
@@ -252,5 +258,6 @@
   }
   .main-nav__delivery {
     right: 98px;
+    top: 105px;
   }
 }

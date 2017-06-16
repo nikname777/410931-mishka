@@ -1,6 +1,6 @@
 .catalog-center {
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 31px;
   width: 320px;
   box-sizing: border-box;
 }
@@ -40,12 +40,15 @@
 .good-item__text-block {
   box-sizing: border-box;
   padding: 30px;
+  padding-top: 26px;
+  padding-left: 27px;
+  padding-bottom: 27px;
 
   border: 1px solid $border-color;
 }
 
 .good-item__description {
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
 
 .good-item__title {
@@ -61,10 +64,13 @@
   font-family: $default-font;
   font-size: 13px;
   line-height: 20px;
+  p {
+    margin-top: 10px;
+  }
 }
 
 .good-item__price {
-  padding-top: 22px;
+  padding-top: 21px;
 
   display: flex;
   border-top: 1px solid $border-color;
@@ -77,7 +83,8 @@
     color: $font-color;
   }
   a {
-    margin-top: 2px;
+    margin-top: 1px;
+    margin-right: -3px;
 
     opacity: 0.2;
   }
@@ -86,13 +93,40 @@
 @media (min-width: 768px) {
   .catalog-center {
     width: 768px;
+    margin-top: 81px;
   }
   .catalog-center__goods {
     width: 668px;
   }
   .good-item {
-    margin-bottom: 30px;
+    margin-bottom: 54px;
     flex-direction: row;
+  }
+
+  .good-item__text-block {
+    padding-top: 24px;
+  }
+
+  .good-item__title {
+    h3 {
+      width: 235px;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  .good-item__parameters {
+    font-size: 15px;
+  }
+
+  .good-item__price {
+    span {
+      font-size: 17px;
+      margin-left: 4px;
+    }
+    a {
+      margin-right: 1px;
+    }
   }
 
   .good-item__img {
@@ -114,10 +148,10 @@
     width: 334px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
 
   .good-item__description {
+    border-top: none;
     border-bottom: none;
   }
 
@@ -130,6 +164,7 @@
   .catalog-center {
     width: 1150px;
     box-sizing: border-box;
+    margin-top: 128px;
   }
   .catalog-center__goods {
     width: 1050px;
@@ -141,13 +176,19 @@
 
   .good-item {
     flex-direction: column;
-    align-items: stretch;
+    // align-items: stretch;
+    justify-content: flex-start;
     margin-right: 50px;
     widht: 315px;
     &:last-child {
       margin-right: 0;
     }
   }
+
+  .good-item__text-block {
+    padding-top: 25px;
+  }
+
   .good-item__img {
     width: 315px;
     height: 462px;
@@ -168,6 +209,13 @@
   }
 
   .good-item__description {
-    min-height: 122px;
+    min-height: 92px;
+    padding-bottom: 6px;
+  }
+  .good-item__price {
+    span {
+      font-size: 17px;
+      margin-left: 0;
+    }
   }
 }
