@@ -200,6 +200,7 @@
     }
     &--reviews {
       padding-left: 175px;
+      min-height: 457px;
       background-position: 100px 0;
     }
      &--form {
@@ -216,7 +217,7 @@
     padding-left: 0;
     padding-right: 0;
     margin-right: 50px;
-    padding-top: 71px;
+    padding-top: 73px;
     margin: 0;
   }
 
@@ -226,7 +227,9 @@
 
   .page-inner__title-reviews {
     margin-bottom: 50px;
-    margin-left: 2px;
+  }
+
+  .page-inner__form-headline {
   }
 
   .page-inner__footer {

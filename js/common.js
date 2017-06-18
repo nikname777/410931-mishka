@@ -1,0 +1,10 @@
+var menuOpen = document.querySelector(".modal-content-show");
+var menuPopup = document.querySelector(".main-nav__menu");
+
+menuOpen.addEventListener("click", function(event) {
+  event.preventDefault();
+  menuPopup.classList.toggle("main-nav__menu--open");
+  menuOpen.classList.toggle("modal-content-close");
+});
+
+

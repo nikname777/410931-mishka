@@ -27,6 +27,8 @@
 }
 
 .page-contacts__map-img {
+  display: block;
+  cursor: pointer;
   width: 320px;
   height: 457px;
   margin: 0 auto;
@@ -46,7 +48,7 @@
   .page-contacts {
     font-size: $font-size--a;
     line-height: 30px;
-    margin-bottom: 56px;
+    margin-bottom: 57px;
   }
   .page-contacts__contact-block {
     font-size: $font-size--a;
@@ -113,11 +115,6 @@
 
   .page-contacts__wrapper {
     padding-left: 275px;
-    outline: 1px dashed #ccc;
-  }
-
-  .page-inner--contacts {
-    width: auto;
   }
 
   .page-contacts__contact-block {
@@ -126,9 +123,9 @@
     width: 320px;
     margin-right: 0;
     flex-direction: column;
-    margin-top: 54px;
+    margin-top: 52px;
     &::before {
-      top: -119px;
+      top: -115px;
       left: -109px;
     }
   }
@@ -142,7 +139,6 @@
     background-image: url('../img/map-mobile@3x.jpg');
     background-repeat: no-repeat;
     background-position: 0 0;
-    outline: 1px dashed #ccc;
   }
 
   .page-contacts__wrapper {
@@ -151,7 +147,7 @@
 
   .page-contacts__btn {
     position: absolute;
-    top: 350px;
+    top: 354px;
     left: 275px;
   }
 }

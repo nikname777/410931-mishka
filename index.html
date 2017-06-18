@@ -6,24 +6,24 @@
   <title>HTML Academy: Мишка</title>
 </head>
 <body>
-  <header class="page-header page-header--catalog">
-    <a class="page-header__humburger" href="#"></a>
+  <header class="page-header">
+    <button class="modal-content-show" type="button" title="Закрыть"></button>
     <h1 class="page-header__title">Магазин товаров ручной работы для дома</h1> <!-- Заголовок скрыт! -->
     <div class="site-logo">
       <a href="index.html"><img src="img/logo-mobile.svg" alt="Mishka" width="86" height="35"></a>
     </div>
-    <nav class="main-nav main-nav--catalog">
-      <ul class="main-nav__menu main-nav__menu--catalog">
-        <li class="main-nav__item main-nav__item--catalog"><a href="catalog.html">Каталог товаров</a></li>
-        <li class="main-nav__item main-nav__item--catalog"><a href="form.html">Вязание на заказ</a></li>
-        <li class="main-nav__item main-nav__item--catalog main-nav__item--search"><a href="#"><span>Поиск по сайту</span></a></li>
-        <li class="main-nav__item main-nav__item--catalog main-nav__item--cart"><a href="#">Корзина: пока пуста</a></li>
+    <nav class="main-nav">
+      <ul class="main-nav__menu">
+        <li class="main-nav__item"><a href="catalog.html">Каталог товаров</a></li>
+        <li class="main-nav__item"><a href="form.html">Вязание на заказ</a></li>
+        <li class="main-nav__item main-nav__item--search"><a href="#"><span>Поиск по сайту</span></a></li>
+        <li class="main-nav__item main-nav__item--cart"><a href="#">Корзина: пока пуста</a></li>
       </ul>
-      <ul class="main-nav__after main-nav__after--catalog">
-        <li class="main-nav__after-item main-nav__after-item--catalog"><a href="#">Новые поступления</a></li>
-        <li class="main-nav__after-item main-nav__after-item"><a href="#">Распродажа</a></li>
+      <ul class="main-nav__after">
+        <li class="main-nav__after-item"><a href="#">Новые поступления</a></li>
+        <li class="main-nav__after-item"><a href="#">Распродажа</a></li>
       </ul>
-      <a class="main-nav__delivery main-nav__delivery--catalog" href="#">Бесплатная доставка по России</a>
+      <a class="main-nav__delivery" href="#">Бесплатная доставка по России</a>
     </nav>
   </header>
   <section class="page-caption">
@@ -121,7 +121,7 @@
           </div>
         </div>
       </div>
-      <div class="page-contacts__map-img"></div>
+      <a class="page-contacts__map-img" href="#"></a>
       <a class="btn page-contacts__btn" href="#">Напишите нам</a>
     </div>
   </section>
@@ -153,5 +153,6 @@
       </div>
     </div>
   </footer>
+<script src="js/common.js"></script>
 </body>
 </html>

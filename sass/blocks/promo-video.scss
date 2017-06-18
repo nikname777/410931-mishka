@@ -41,15 +41,16 @@
   line-height: 24px;
 
   padding: 23px;
+  padding-top: 24px;
   padding-left: 87px;
-
   border: 1px solid $border-color;
+  box-sizing: border-box;
   h3 {
     margin: 0;
     padding: 0;
   }
   &::before {
-    top: 28px;
+    top: 29px;
     left: 33px;
 
     width: 32px;
@@ -90,7 +91,7 @@
   border-top: none;
   p {
     margin-top: 0;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
   }
 }
 
@@ -128,13 +129,13 @@
     position: relative;
     font-family: $bold-font;
     font-size: 17px;
-    padding-top: 36px;
+    padding-top: 38px;
     padding-left: 105px;
     letter-spacing: 0.01em;
     border-bottom: none;
     &::before {
-      top: 32px;
-      left: 40px;
+      top: 33px;
+      left: 41px;
     }
   }
   .promo-video__description {

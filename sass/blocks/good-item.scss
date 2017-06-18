@@ -1,6 +1,6 @@
 .catalog-center {
   margin: 0 auto;
-  margin-top: 31px;
+  margin-top: 30px;
   width: 320px;
   box-sizing: border-box;
 }
@@ -15,6 +15,9 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  &:last-child {
+    margin-bottom: 31px;
+  }
 }
 
 .good-item__img {
@@ -101,6 +104,9 @@
   .good-item {
     margin-bottom: 54px;
     flex-direction: row;
+    &:last-child {
+      margin-bottom: 52px;
+    }
   }
 
   .good-item__text-block {
@@ -117,6 +123,9 @@
 
   .good-item__parameters {
     font-size: 15px;
+    p {
+      margin-top: 12px;
+    }
   }
 
   .good-item__price {
@@ -171,14 +180,14 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-
+    margin-bottom: 2px;
   }
 
   .good-item {
     flex-direction: column;
     // align-items: stretch;
     justify-content: flex-start;
-    margin-right: 50px;
+    margin-right: 53px;
     widht: 315px;
     &:last-child {
       margin-right: 0;
@@ -211,6 +220,9 @@
   .good-item__description {
     min-height: 92px;
     padding-bottom: 6px;
+    p {
+      margin-top: 10px;
+    }
   }
   .good-item__price {
     span {
