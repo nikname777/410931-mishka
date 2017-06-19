@@ -6,5 +6,3 @@ menuOpen.addEventListener("click", function(event) {
   menuPopup.classList.toggle("main-nav__menu--open");
   menuOpen.classList.toggle("modal-content-close");
 });
-
-
