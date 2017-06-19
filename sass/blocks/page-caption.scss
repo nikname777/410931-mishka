@@ -1,7 +1,7 @@
 .page-caption {
   width: 100%;
   border-top: 1px solid $border-color;
-  background-color: #f1f1f1;
+  background-color: #F9F9F9;
   .page-caption__inner--catalog {
     height: 176px;
     background-image: none;
@@ -12,6 +12,18 @@
 
     justify-content: center;
     align-items: center;
+  }
+}
+
+.page-caption--catalog,
+.page-caption--form {
+  background-color: #F1F1F1;
+}
+
+.page-caption--form {
+  .page-caption__title-catalog {
+    margin-left: -123px;
+    top: 44px;
   }
 }
 
@@ -49,7 +61,7 @@
   position: absolute;
   top: 43px;
   left: 50%;
-  margin-left: -122px;
+  margin-left: -120px;
 
   font-family: $bold-font;
   font-size: 27px;
@@ -142,6 +154,13 @@
     background-position: 0 -3px;
   }
 
+  .page-caption--form {
+    .page-caption__title-catalog {
+      margin-left: -195px;
+      top: 52px;
+    }
+  }
+
   .page-caption__title {
     width: 510px;
     position: absolute;
@@ -159,9 +178,9 @@
 
   .page-caption__title-catalog {
     position: absolute;
-    top: 52px;
+    top: 54px;
     left: 50%;
-    margin-left: -196px;
+    margin-left: -190px;
 
     font-family: $bold-font;
     font-size: $font-size--h2;
@@ -221,21 +240,40 @@
     }
   }
   .page-caption__inner {
-    padding-top: 642px;
+    padding-top: 626px;
     width: 1250px;
     background-origin: padding-box;
 
     background-image: url('../img/hero-mobile@3x.jpg');
+    background-position: 0 0;
     &::after {
       width: 1250px;
     }
+  }
+
+  .page-caption--form {
+    .page-caption__title-catalog {
+      margin-left: -239px;
+      top: 42px;
+    }
+  }
+
+  .page-caption__title {
+    font-family: $bold-font;
+    font-size: 53px;
+    line-height: 57px;
+    width: 625px;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    margin-left: -312px;
   }
 
   .page-caption__title-catalog {
     position: absolute;
     top: 41px;
     left: 50%;
-    margin-left: -239px;
+    margin-left: -229px;
 
     font-family: $bold-font;
     font-size: 53px;

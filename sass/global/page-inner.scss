@@ -4,32 +4,29 @@
   margin: 0 auto;
   padding: 30px;
 
-
   font-family: $default-font;
   font-size: $font-size--p;
 
   color: $font-color--p;
-
   &--reviews {
     padding-top: 24px;
   }
   &--contacts {
-    padding-top: 39px;
     margin-bottom: 6px;
+    padding-top: 39px;
   }
   &--about-us {
-    margin-top: 30px;
+    margin-top: 0;
   }
   &--header {
     width: 720px;
     padding-top: 0;
     padding-bottom: 0;
   }
-}
-
-.page-inner--form {
-  padding-top: 22px;
-  padding-bottom: 55px;
+  &--form {
+    padding-top: 22px;
+    padding-bottom: 55px;
+  }
 }
 
 .page-inner__title {
@@ -47,8 +44,8 @@
     text-decoration: none;
   }
   &--about-us {
-    margin-left: -2px;
     margin-bottom: -1px;
+    margin-left: -2px;
   }
   &--reviews {
     margin-bottom: 23px;
@@ -60,17 +57,40 @@
     font-size: 18px;
   }
 }
+
+.page-inner__title-about-us {
+  margin-bottom: 0;
+}
+
+.page-inner__title-contact {
+  margin-bottom: 26px;
+
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.page-inner-contacts {
+  margin-bottom: 7px;
+  padding-top: 39px;
+}
+
+.page-inner__title-reviews {
+  padding-bottom: 0;
+}
+
 .page-inner__price {
   b {
-    font-family: $bold-font;
-    font-size: $font-size--a;
-    color: $font-color;
+    margin-bottom: 11px;
+    margin-left: -2px;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-left: -2px;
-    margin-bottom: 11px;
 
     display: block;
+
+    font-family: $bold-font;
+    font-size: $font-size--a;
+
+    color: $font-color;
 
     text-align: center;
   }
@@ -82,10 +102,11 @@
 }
 
 .page-inner__form-headline {
+  margin-top: 0;
+
   font-family: $default-font;
   font-size: 13px;
   line-height: 24px;
-  margin-top: 0;
 }
 
 .page-inner--footer {
@@ -105,12 +126,12 @@
       width: 292px;
     }
     &--reviews {
-      width: auto;
       position: relative;
 
+      width: auto;
       padding-bottom: 15px;
 
-      background-image: url('../img/about-us-background.jpg');
+      background-image: url('../img/review@2x.jpg');
       background-repeat: no-repeat;
       background-position: 0 0;
     }
@@ -118,29 +139,50 @@
       padding-top: 70px;
     }
     &--catalog {
-      margin: 0 auto;
       width: 668px;
+      margin: 0 auto;
     }
     &--form {
-      padding-left: 50px;
+      padding-top: 73px;
       padding-right: 50px;
-      padding-top: 77px;
       padding-bottom: 37px;
+      padding-left: 50px;
     }
     &--footer {
       padding-top: 53px;
       padding-bottom: 34px;
     }
   }
-  .page-inner__title--reviews {
-    margin-bottom: 56px;
+  .page-inner__title-reviews,
+  .page-inner__title-about-us,
+  .page-inner__title-contact {
+    margin-bottom: 21px;
+    margin-left: -4px;
+
+    font-size: 43px;
+    line-height: 50px;
   }
+  .page-inner__title-reviews {
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+  .page-inner__title-contact {
+    margin-bottom: 50px;
+  }
+
+  .page-inner-contacts {
+    padding-top: 78px;
+    padding-bottom: 57px;
+  }
+
   .page-inner__form-headline {
+    padding-right: 50px;
+    padding-left: 50px;
+
     font-family: $default-font;
     font-size: $font-size--a;
     line-height: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
   }
 }
 
@@ -150,17 +192,20 @@
     padding-right: 100px;
     padding-left: 100px;
     &--about-us {
+      padding-top: 100px;
       padding-left: 275px;
     }
     &--contacts {
-      width: 577px;
+      width: 250px;
       padding-left: 250px;
     }
     &--reviews {
+      min-height: 457px;
       padding-left: 175px;
+
       background-position: 100px 0;
     }
-     &--form {
+    &--form {
       padding-top: 121px;
       padding-left: 115px!important;
     }
@@ -168,10 +213,31 @@
       padding-top: 53px;
     }
   }
+
+  .page-inner-contacts {
+    width: 320px;
+    margin: 0;
+    margin-right: 33px;
+    padding-top: 73px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .page-inner__title-about-us {
+    margin-bottom: 22px;
+  }
+
+  .page-inner__title-reviews {
+    margin-bottom: 50px;
+  }
+
+  .page-inner__form-headline {
+  }
+
   .page-inner__footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
     width: 1050px;
     margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
