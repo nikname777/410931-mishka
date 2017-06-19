@@ -1,20 +1,20 @@
 .promo-video {
+  box-sizing: border-box;
+  width: 320px;
   margin: 0 auto;
   margin-bottom: 58px;
-  width: 320px;
-
-  padding-left: 30px;
   padding-right: 30px;
-  box-sizing: border-box;
-
+  padding-left: 30px;
 }
 
 .promo-video__inner {
-  box-sizing: border-box;
   position: relative;
-  padding-top: 95px;
+
+  box-sizing: border-box;
   width: 260px;
   margin: 0 auto;
+  padding-top: 95px;
+
   display: flex;
   flex-direction: column;
 }
@@ -26,25 +26,28 @@
 }
 
 .promo-video__img {
-  background-image: url('../img/video-mobile@1x.jpg');
-  background-repeat: no-repeat;
   width: 260px;
   height: 150px;
+
+  background-image: url('../img/video-mobile@1x.jpg');
+  background-repeat: no-repeat;
 }
 
 .promo-video__title {
   position: absolute;
   top: 0;
   left: 0;
+
+  box-sizing: border-box;
+  padding: 23px;
+  padding-top: 24px;
+  padding-left: 87px;
+
   font-family: $bold-font;
   font-size: 17px;
   line-height: 24px;
 
-  padding: 23px;
-  padding-top: 24px;
-  padding-left: 87px;
   border: 1px solid $border-color;
-  box-sizing: border-box;
   h3 {
     margin: 0;
     padding: 0;
@@ -78,14 +81,15 @@
 
 
 .promo-video__description {
+  padding: 30px;
+  padding-top: 27px;
+  padding-right: 39px;
+  padding-bottom: 32px;
+  padding-left: 33px;
+
   font-family: $default-font;
   font-size: 13px;
   line-height: 24px;
-  padding: 30px;
-  padding-right: 39px;
-  padding-left: 33px;
-  padding-top: 27px;
-  padding-bottom: 32px;
 
   border: 1px solid $border-color;
   border-top: none;
@@ -96,24 +100,23 @@
 }
 
 .promo-video__btn {
-  width: 192px;
   box-sizing: border-box;
-  margin: 0 auto;
+  width: 192px;
   height: 52px;
+  margin: 0 auto;
   padding-top: 12px;
 }
 
 @media (min-width: 768px) {
   .promo-video {
     width: 768px;
-
-    padding-left: 50px;
-    padding-right: 50px;
     margin-bottom: 63px;
-
+    padding-right: 50px;
+    padding-left: 50px;
   }
   .promo-video__inner {
     position: static;
+
     width: 668px;
     padding-top: 0;
   }
@@ -123,27 +126,33 @@
   .promo-video__img {
     width: 668px;
     min-height: 455px;
+
     background-image: url('../img/video-mobile@2x.jpg');
   }
   .promo-video__title {
     position: relative;
-    font-family: $bold-font;
-    font-size: 17px;
+
     padding-top: 38px;
     padding-left: 105px;
-    letter-spacing: 0.01em;
+
+    font-family: $bold-font;
+    font-size: 17px;
+
     border-bottom: none;
+
+    letter-spacing: 0.01em;
     &::before {
       top: 33px;
       left: 41px;
     }
   }
   .promo-video__description {
+    padding-top: 10px;
+    padding-bottom: 45px;
+    padding-left: 40px;
+
     font-size: 15px;
     line-height: 30px;
-    padding-top: 10px;
-    padding-left: 40px;
-    padding-bottom: 45px;
     p {
       margin-bottom: 36px;
     }
@@ -157,38 +166,42 @@
 
 @media (min-width: 1250px) {
   .promo-video {
-    width: 1150px;
     box-sizing: border-box;
+    width: 1150px;
     margin-bottom: 106px;
   }
   .promo-video__inner {
     width: 1050px;
     margin: 0 auto;
+
     display: flex;
     flex-direction: row;
+
     align-items: stretch;
   }
 
   .promo-video__player {
     width: 682px;
-
   }
   .promo-video__content {
-    border: 1px solid $border-color;
-    width: 368px;
     box-sizing: border-box;
+    width: 368px;
+
+    border: 1px solid $border-color;
   }
 
   .promo-video__img {
     width: 682px;
     min-height: 455px;
+
     background-image: url('../img/video-mobile@3x.jpg');
   }
 
   .promo-video__title {
     padding-top: 95px;
-    padding-left: 77px;
     padding-bottom: 10px;
+    padding-left: 77px;
+
     border: none;
     h3 {
       width: 200px;
@@ -197,21 +210,21 @@
       top: 42px;
       left: 77px;
     }
-
   }
+
   .promo-video__description {
-    border: none;
-    margin-left: 36px;
-    padding-right: 0;
+    margin-left: 38px;
     padding-top: 23px;
+    padding-right: 0;
+
+    border: none;
     p {
       margin-bottom: 46px;
     }
   }
-   .promo-video__btn {
+  .promo-video__btn {
     width: 230px;
     margin: 0;
     margin-left: 3px;
   }
-
 }

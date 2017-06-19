@@ -4,24 +4,19 @@
   margin: 0 auto;
   padding: 30px;
 
-
   font-family: $default-font;
   font-size: $font-size--p;
 
   color: $font-color--p;
-
   &--reviews {
     padding-top: 24px;
   }
   &--contacts {
-    padding-top: 39px;
     margin-bottom: 6px;
+    padding-top: 39px;
   }
   &--about-us {
     margin-top: 0;
-  }
-  &--title-about-us {
-
   }
   &--header {
     width: 720px;
@@ -49,8 +44,8 @@
     text-decoration: none;
   }
   &--about-us {
-    margin-left: -2px;
     margin-bottom: -1px;
+    margin-left: -2px;
   }
   &--reviews {
     margin-bottom: 23px;
@@ -68,31 +63,34 @@
 }
 
 .page-inner__title-contact {
+  margin-bottom: 26px;
+
   font-size: 18px;
   line-height: 30px;
-  margin-bottom: 26px;
 }
 
 .page-inner-contacts {
-  padding-top: 39px;
   margin-bottom: 7px;
+  padding-top: 39px;
 }
 
 .page-inner__title-reviews {
-  padding-bottom: 0
+  padding-bottom: 0;
 }
 
 .page-inner__price {
   b {
-    font-family: $bold-font;
-    font-size: $font-size--a;
-    color: $font-color;
+    margin-bottom: 11px;
+    margin-left: -2px;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-left: -2px;
-    margin-bottom: 11px;
 
     display: block;
+
+    font-family: $bold-font;
+    font-size: $font-size--a;
+
+    color: $font-color;
 
     text-align: center;
   }
@@ -104,10 +102,11 @@
 }
 
 .page-inner__form-headline {
+  margin-top: 0;
+
   font-family: $default-font;
   font-size: 13px;
   line-height: 24px;
-  margin-top: 0;
 }
 
 .page-inner--footer {
@@ -127,9 +126,9 @@
       width: 292px;
     }
     &--reviews {
-      width: auto;
       position: relative;
 
+      width: auto;
       padding-bottom: 15px;
 
       background-image: url('../img/review@2x.jpg');
@@ -140,14 +139,14 @@
       padding-top: 70px;
     }
     &--catalog {
-      margin: 0 auto;
       width: 668px;
+      margin: 0 auto;
     }
     &--form {
-      padding-left: 50px;
-      padding-right: 50px;
       padding-top: 73px;
+      padding-right: 50px;
       padding-bottom: 37px;
+      padding-left: 50px;
     }
     &--footer {
       padding-top: 53px;
@@ -157,10 +156,11 @@
   .page-inner__title-reviews,
   .page-inner__title-about-us,
   .page-inner__title-contact {
+    margin-bottom: 21px;
+    margin-left: -4px;
+
     font-size: 43px;
     line-height: 50px;
-    margin-left: -4px;
-    margin-bottom: 21px;
   }
   .page-inner__title-reviews {
     margin-top: 25px;
@@ -177,11 +177,12 @@
   }
 
   .page-inner__form-headline {
+    padding-right: 50px;
+    padding-left: 50px;
+
     font-family: $default-font;
     font-size: $font-size--a;
     line-height: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
   }
 }
 
@@ -191,19 +192,20 @@
     padding-right: 100px;
     padding-left: 100px;
     &--about-us {
-      padding-left: 275px;
       padding-top: 100px;
+      padding-left: 275px;
     }
     &--contacts {
       width: 250px;
       padding-left: 250px;
     }
     &--reviews {
-      padding-left: 175px;
       min-height: 457px;
+      padding-left: 175px;
+
       background-position: 100px 0;
     }
-     &--form {
+    &--form {
       padding-top: 121px;
       padding-left: 115px!important;
     }
@@ -214,11 +216,11 @@
 
   .page-inner-contacts {
     width: 320px;
-    padding-left: 0;
-    padding-right: 0;
+    margin: 0;
     margin-right: 50px;
     padding-top: 73px;
-    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .page-inner__title-about-us {
@@ -233,9 +235,9 @@
   }
 
   .page-inner__footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
     width: 1050px;
     margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
