@@ -27,6 +27,15 @@
   }
 }
 
+@media
+  (min-resolution: 144dpi),
+  (min-resolution: 1.5dppx) {
+   .page-caption__inner {
+    background-image: url("../img/hero-mobile@2x.jpg");
+    background-size: 1150px auto;
+  }
+}
+
 .page-caption__inner {
   position: relative;
 

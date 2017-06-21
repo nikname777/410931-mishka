@@ -1,4 +1,4 @@
-var menuOpen = document.querySelector(".modal-content-show");
+var menuOpen = document.querySelector(".modal");
 var menuPopup = document.querySelector(".main-nav__menu");
 
 menuOpen.addEventListener("click", function(event) {
