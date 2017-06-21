@@ -98,11 +98,37 @@
     position: relative;
 
     background-color: $accent-color;
+    &:hover {
+      background-color: #59D5BC;
+      &:after {
+        opacity: 0.7;
+      }
+    }
+    &:focus {
+      background-color: #59D5BC;
+      color: rgba(255, 255, 255, 0.3);
+      &:after {
+        opacity: 0.3;
+      }
+    }
   }
   &:last-child {
     position: relative;
 
     background-color: $accent-color--hover;
+    &:hover {
+      background-color: #46C1AE;
+      &:after {
+        opacity: 0.7;
+      }
+    }
+    &:focus {
+      background-color: #59D5BC;
+      color: rgba(255, 255, 255, 0.3);
+      &:after {
+        opacity: 0.3;
+      }
+    }
   }
   &:first-child::after {
     position: absolute;
@@ -112,7 +138,7 @@
     width: 41px;
     height: 62px;
 
-    opacity: 0.1;
+    opacity: 0.5;
     background-image: url('../img/icon-interior.svg');
     background-repeat: no-repeat;
 
@@ -126,7 +152,7 @@
     width: 61px;
     height: 61px;
 
-    opacity: 0.1;
+    opacity: 0.5;
     background-image: url('../img/icon-toy.svg');
     background-repeat: no-repeat;
 
