@@ -66,6 +66,24 @@
   margin-bottom: 2px;
 }
 
+.page-product__price {
+  b {
+    margin-bottom: 11px;
+    margin-left: -2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    display: block;
+
+    font-family: $bold-font;
+    font-size: $font-size--a;
+
+    color: $font-color;
+
+    text-align: center;
+  }
+}
+
 .page-product__btn,
 .reviews__btn,
 .page-contacts__btn {

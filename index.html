@@ -8,7 +8,7 @@
 </head>
 <body>
   <header class="page-header">
-    <button class="modal" type="button" title="Закрыть"></button>
+    <button class="mobile-menu" type="button" title="Закрыть"></button>
     <h1 class="page-header__title">Магазин товаров ручной работы для дома</h1> <!-- Заголовок скрыт! -->
     <div class="site-logo">
       <a>
@@ -57,7 +57,7 @@
         </div>
       </section>
       <section class="page-product">
-        <div class="page-inner">
+        <div class="page-inner page-inner--product">
           <div class="page-product__header">
             <h3 class="page-inner__title page-inner--title"><a href="#">Вязаные корзинки</a></h3>
             <span class="page-product__good-week">Товар недели</span>
@@ -219,5 +219,22 @@
         </div>
       </footer>
       <script src="js/common.js"></script>
+
+      <form class="modal" action="#" method="post">
+        <div class="modal__header">
+          <h3 class="modal__title">Добавить в корзину</h3>
+          <b class="modal__description">Выберите размер:</b>
+        </div>
+        <div class="modal__sizes">
+          <input class="modal__size" type="button" id="check1"><label class="modal__size-label" for="check1">S</label>
+          <input class="modal__size" type="button" id="check2"><label class="modal__size-label" for="check2">M</label>
+          <input class="modal__size" type="button" id="check3"><label class="modal__size-label" for="check3">L</label>
+        </div>
+        <div class="modal__input">
+          <button class="modal__input-btn" type="submit">Заказать</button>
+        </div>
+      </form>
+      <div class="modal__overlay"></div>
+
     </body>
     </html>
