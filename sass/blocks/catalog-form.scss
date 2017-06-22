@@ -23,7 +23,7 @@
   }
 }
 
-.catalog-form-section {
+.catalog-form__section {
   ul {
     margin:0;
     padding-bottom: 20px;
@@ -137,6 +137,7 @@
 .catalog-form__radio-item {
   + label {
     position: relative;
+    cursor: pointer;
     &::before {
       content: "";
       position: absolute;
@@ -146,6 +147,27 @@
       left: 0;
       border: 2px solid #000000;
       border-radius: 50%;
+    }
+    &:hover {
+      &::before {
+        border-color: #62D1BA;
+      }
+    }
+    &:active {
+      &::before {
+        border-color: #C7C7C7;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: 5px;
+        left: 12px;
+        background-color: $accent-color;
+        border-radius: 50%;
+        border: none;
+      }
     }
   }
 }
@@ -333,6 +355,23 @@
       }
     }
   }
+  .catalog-form__radio-item {
+    + label {
+      &:active {
+        &::after {
+          content: "";
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          top: 3px;
+          left: 16px;
+          background-color: $accent-color;
+          border-radius: 50%;
+          border: none;
+        }
+      }
+    }
+  }
   .catalog-form__radio-item:checked {
     + label {
       &::after {
@@ -353,7 +392,7 @@
       }
     }
   }
-  .catalog-form-section {
+  .catalog-form__section {
     padding-top: 52px;
     padding-bottom: 20px;
     position: relative;
@@ -507,7 +546,7 @@
     width: 700px;
     margin-left: 162px;
   }
-  .catalog-form-section {
+  .catalog-form__section {
     padding-left: 161px;
     > div {
       left: 52px;
@@ -562,6 +601,7 @@
       }
     }
   }
+
   .catalog-form__btn-wrapper {
     margin: 0 auto;
     width: 712px;

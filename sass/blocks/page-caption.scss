@@ -27,24 +27,21 @@
   }
 }
 
-@media
-  (min-resolution: 144dpi),
-  (min-resolution: 1.5dppx) {
-   .page-caption__inner {
-    background-image: url("../img/hero-mobile@2x.jpg");
-    background-size: 1150px auto;
-  }
-}
-
 .page-caption__inner {
   position: relative;
-
   margin: 0 auto;
   background-image: url('../img/hero-mobile@1x.jpg');
   background-repeat: no-repeat;
   background-position: 50% -16px;
   width: 320px;
   padding-top: 282px;
+
+  @media
+  (min-resolution: 144dpi),
+  (min-resolution: 1.5dppx) {
+    background-image: url("../img/hero-mobile@2x.jpg");
+    background-size: 1150px auto;
+  }
 }
 
 .page-caption__title {
@@ -168,13 +165,13 @@
     }
     &::after {
       position: absolute;
-      bottom: -1px;
+      bottom: -18px;
       left: 8px;
 
       width: 100%;
-      height: 12px;
+      height: 33px;
 
-      background-image: url('../img/zigzag.png');
+      background-image: url('../img/bg-zigzag-fill.svg');
       background-repeat: repeat-x;
 
       content: '';
@@ -186,7 +183,7 @@
     width: 768px;
     padding-top: 626px;
     background-image: url('../img/hero-mobile@2x.jpg');
-    background-position: 0 -3px;
+    background-position: 50% auto;
   }
 
   .page-caption--form {
@@ -263,24 +260,14 @@
 @media (min-width: 1250px) {
   .page-caption {
     min-height: 254px;
-    &::after {
-      position: absolute;
-      bottom: -18px;
-      left: -10px;
-
-      width: 100%;
-      height: 35px;
-
-      background-image: url('../img/zigzag-desktop.png');
-    }
   }
   .page-caption__inner {
     padding-top: 626px;
     width: 1250px;
     background-origin: padding-box;
 
-    background-image: url('../img/hero-mobile@3x.jpg');
-    background-position: 0 0;
+    background-image: url('../img/hero-desktop@1x.jpg');
+    background-position: 50% auto;
     &::after {
       width: 1250px;
     }

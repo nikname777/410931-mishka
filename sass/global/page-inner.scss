@@ -116,6 +116,7 @@
 
 @media (min-width: 768px) {
   .page-inner {
+    position: relative;
     width: 768px;
     margin: 0 auto;
     padding: 50px;
@@ -132,6 +133,7 @@
       padding-bottom: 15px;
 
       background-image: url('../img/review@2x.jpg');
+      background-size: 348px auto;
       background-repeat: no-repeat;
       background-position: 0 0;
     }

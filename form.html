@@ -55,14 +55,14 @@
     <div class="page-inner page-inner--form">
       <p class="page-inner__form-headline">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
       <form class="catalog-form" action="https://echo.htmlacademy.ru/" method="get">
-        <div class="catalog-form-section">
+        <div class="catalog-form__section">
           <div class="catalog-form__legend">Тип</div>
-          <ul>
-            <li><input class="catalog-form__radio-item" type="radio" id="yes" name="toy" checked><label for="yes">Аксессуар для интерьера</label></li>
-            <li><input class="catalog-form__radio-item" type="radio" id="no" name="toy"><label for="no">Детская игрушка</label></li>
+          <ul class="catalog-form__list">
+            <li class="catalog-form__item"><input class="catalog-form__radio-item" type="radio" id="yes" name="toy" checked><label class="catalog-form__radio-label" for="yes">Аксессуар для интерьера</label></li>
+            <li class="catalog-form__item"><input class="catalog-form__radio-item" type="radio" id="no" name="toy"><label class="catalog-form__radio-label" for="no">Детская игрушка</label></li>
           </ul>
         </div>
-        <div class="catalog-form-section">
+        <div class="catalog-form__section">
           <div class="catalog-form__legend">Цвет</div>
           <ul>
             <li><input class="catalog-form__checkbox" type="checkbox" name="white" id="check1" checked><label for="check1">Белый</label></li>
@@ -73,7 +73,7 @@
             <li><input class="catalog-form__checkbox" type="checkbox" name="orange" id="check6"><label for="check6">Оранжевый</label></li>
           </ul>
         </div>
-        <div class="catalog-form-section">
+        <div class="catalog-form__section">
           <div class="catalog-form__legend">ФИО</div>
           <ul>
             <li class="catalog-form__name"><label for="name">Имя:</label><input type="text" name="name" id="name" placeholder="Введите ваше имя*" required></li>
@@ -81,19 +81,19 @@
             <li class="catalog-form__name"><label for="patronymic">Отчество:</label><input type="text" name="patronymic" id="patronymic" placeholder="Отчество, если желаете"></li>
           </ul>
         </div>
-        <div class="catalog-form-section">
+        <div class="catalog-form__section">
           <div class="catalog-form__legend">Тел</div>
           <ul>
             <li class="catalog-form__user-data"><input type="tel" name="phone" placeholder="+7 ХХХ ХХ ХХ*"></li>
           </ul>
         </div>
-        <div class="catalog-form-section">
+        <div class="catalog-form__section">
           <div class="catalog-form__legend">E-mail</div>
           <ul>
             <li class="catalog-form__user-data"><input type="email" name="email" placeholder="Ваш Email*"></li>
           </ul>
         </div>
-        <div class="catalog-form-section">
+        <div class="catalog-form__section">
           <div class="catalog-form__legend">Доп</div>
           <textarea class="catalog-form__text" name="text" placeholder="Опишите все ваши пожелания к заказу"></textarea>
         </div>
