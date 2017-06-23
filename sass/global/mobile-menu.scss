@@ -13,11 +13,6 @@
   background-repeat: no-repeat;
   background-color: transparent;
   border: none;
-  &:hover {
-    + .main-nav {
-      top: 78px;
-    }
-  }
 }
 
 .mobile-menu-close {
