@@ -111,6 +111,17 @@
     }
   }
 
+  .page-contacts__mail-link {
+    &:before {
+      content: "";
+      position: absolute;
+      width: 203px;
+      height: 1px;
+      background-color: #62D1BA;
+      top: 25px;
+    }
+  }
+
   .page-contacts__map-img {
     width: 768px;
     height: 457px;
@@ -136,7 +147,7 @@
     width: 1250px;
     margin: 0 auto;
     margin-bottom: 103px;
-    margin-top: 93px;
+    margin-top: 92px;
   }
 
   .page-contacts__wrapper {

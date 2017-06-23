@@ -181,7 +181,12 @@
     width: 768px;
     padding-top: 626px;
     background-image: url('../img/hero-mobile@2x.jpg');
-    background-position: 50% auto;
+    background-position: -190px -1px;
+    background-size: 1150px 100%;
+    @media(min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url("/img/hero-desktop@2x.jpg");
+      background-size: 1150px auto;
+    }
   }
 
   .page-caption--form {
@@ -262,10 +267,13 @@
   .page-caption__inner {
     padding-top: 626px;
     width: 1250px;
-    background-origin: padding-box;
 
     background-image: url('../img/hero-desktop@1x.jpg');
-    background-position: 50% auto;
+    background-position: 0 -1px;
+    background-size: 1250px 100%;
+    @media(min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url("/img/hero-desktop@2x.jpg");
+    }
     &::after {
       width: 1250px;
     }
