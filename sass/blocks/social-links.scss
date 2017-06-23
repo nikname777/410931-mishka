@@ -20,6 +20,16 @@
   }
 }
 
+.social-links__item-svg {
+  fill: #231F20;
+  &:hover {
+    fill: #46C1AE;
+  }
+  &:focus {
+    fill: #BDE3DD;
+  }
+}
+
 @media (min-width: 768px) {
   .social-links {
     margin-right: 40px;

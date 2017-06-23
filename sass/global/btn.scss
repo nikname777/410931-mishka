@@ -12,4 +12,11 @@
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  &:hover {
+    background-color: #444444;
+    color: #ffffff;
+  }
+  &:focus {
+    color: rgba(255, 255, 255, 0.3);
+  }
 }

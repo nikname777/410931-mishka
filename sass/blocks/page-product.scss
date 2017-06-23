@@ -1,4 +1,5 @@
 .page-product {
+  position: relative;
   line-height: 24px;
   margin-bottom: 8px;
 }
@@ -53,6 +54,24 @@
 
 .page-product__image {
   margin-bottom: 2px;
+}
+
+.page-product__price {
+  b {
+    margin-bottom: 11px;
+    margin-left: -2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    display: block;
+
+    font-family: $bold-font;
+    font-size: $font-size--a;
+
+    color: $font-color;
+
+    text-align: center;
+  }
 }
 
 .page-product__btn,
@@ -136,13 +155,32 @@
   .page-product {
     position: relative;
 
-    width: 1250px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 13px;
+    &:after {
+      bottom: -60px;
+    }
+  }
+
+  .page-product__content {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      left: -24px;
+      bottom: -97px;
+      width: 1100px;
+      height: 35px;
+      background-image: url('../img/bg-zigzag-line.svg');
+      background-repeat: repeat-x;
+      background-size: 100%;
+      transform: rotate(180deg);
+    }
   }
 
   .page-product__header {
-    margin-top: -17px;
+    margin-top: -30px;
     margin-left: -3px;
     min-height: 60px;
   }

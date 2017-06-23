@@ -17,48 +17,10 @@
   display: none;
 }
 
-.modal-content-show {
-  position: absolute;
-  top: 50%;
-  right: 31px;
-
-  width: 20px;
-  height: 14px;
-  margin-top: -8px;
-
-  display: block;
-
-  background-image: url('../img/icon-menu-open.svg');
-  background-repeat: no-repeat;
-  background-color: transparent;
-  border: none;
-}
-
-.modal-content-close {
-  position: absolute;
-  top: 45%;
-  right: 30px;
-
-  width: 21px;
-  height: 20px;
-  margin-top: -8px;
-
-  display: block;
-
-  background-image: url('../img/icon-menu-close.svg');
-  background-repeat: no-repeat;
-  background-color: transparent;
-  border: none;
-}
-
 @media (min-width: 768px) {
   .page-header {
     max-width: 768px;
-    min-height: 75px;
     border-top: none;
-  }
-  .modal-content-show {
-    display: none;
   }
 }
 
