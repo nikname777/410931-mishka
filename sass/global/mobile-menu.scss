@@ -14,8 +14,8 @@
   background-color: transparent;
   border: none;
   &:hover {
-    .main-nav__menu {
-      display: block;
+    + .main-nav {
+      top: 78px;
     }
   }
 }

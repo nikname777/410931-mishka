@@ -1,29 +1,25 @@
 .main-nav {
   position: absolute;
   z-index: 100;
-  top: 78px;
+  top: -99999px;
   left: 0;
 
   width: 320px;
-
-  display: block;
 
   background-color: #ffffff;
 }
 
 .main-nav__menu {
-  position: relative;
-
   width: 320px;
   margin: 0;
   padding: 0;
-  display: none;
 
   list-style: none;
+  background-color: #ffffff;
 }
 
 .main-nav__menu--open {
-  display: block;
+  top: 78px;
 }
 
 .main-nav__item {
@@ -101,6 +97,7 @@
   }
 
   .main-nav__menu {
+    position: relative;
     width: 668px;
 
     display: flex;
