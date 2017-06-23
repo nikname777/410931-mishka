@@ -9,7 +9,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  display: none;
+  margin-top: -99999px;
   z-index: 3;
 }
 
@@ -69,6 +69,10 @@
 }
 
 .modal__input-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 260px;
   height: 52px;
   border: none;
@@ -89,5 +93,9 @@
 }
 
 .modal__show-form {
+  margin-top: auto;
+}
+
+.modal__overlay-show {
   display: block;
 }

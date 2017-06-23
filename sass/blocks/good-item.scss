@@ -18,6 +18,9 @@
   cursor: pointer;
   &:last-child {
     margin-bottom: 31px;
+    .good-item__size {
+      margin-bottom: 12px;
+    }
   }
 }
 
@@ -43,15 +46,15 @@
   padding-bottom: 12px;
 }
 
-.good-item__title-link {
-
-}
-
 .good-item__title {
   margin: 0;
   padding: 0;
 
   @include goodstitle;
+}
+
+.good-item__title-link {
+  color: $font-color--p;
   &:hover {
     color: rgba(0, 0, 0, 0.6);
   }
@@ -68,7 +71,7 @@
 
 .good-item__size {
   margin-top: 11px;
-  margin-bottom: 12px;
+  margin-bottom: 11px;
 }
 
 .good-item__price {
@@ -137,7 +140,7 @@
   }
 
   .good-item__size {
-    margin-top: 12px;
+    margin-top: 10px;
   }
 
 
@@ -225,7 +228,9 @@
   }
 
   .good-item__size {
-    margin-top: 10px;
+    &:nth-child(2) {
+      margin-top: 17px;
+    }
   }
 
   .good-item__count {
