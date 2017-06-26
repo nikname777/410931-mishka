@@ -28,4 +28,3 @@ if(overlay) {
   overlay.classList.remove("modal__overlay-show");
 });
 }
-
